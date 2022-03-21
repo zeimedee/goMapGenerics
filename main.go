@@ -3,13 +3,13 @@ package main
 import "fmt"
 
 func main() {
-	// fmt.Println("regular map")
+	fmt.Println("regular map")
 
-	// m := map[int]int{1: 2, 2: 3}
+	m := map[int]int{1: 2, 2: 3}
 
-	// for v, k := range m {
-	// 	fmt.Printf("%d:%d \n", v, k)
-	// }
+	for v, k := range m {
+		fmt.Printf("%d:%d \n", v, k)
+	}
 
 	//generic map
 	fmt.Println("Generic map")
